@@ -1,4 +1,4 @@
-#include <iteratorsort.hpp>
+#include <literatorsort.hpp>
 #include <catch.hpp>
 
 SCENARIO ("array")
