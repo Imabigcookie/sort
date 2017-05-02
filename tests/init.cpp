@@ -15,7 +15,7 @@ SCENARIO ("array")
 }
 SCENARIO("matr")
 {
-  int array[3][3] = {4, 21, 12, 5, 2, 7, 42, 26, 8};
+  int arr[3][3] = {4, 21, 12, 5, 2, 7, 42, 26, 8};
   int * beg = &arr[0][0];
   int * end = &arr[2][3];
   sort_iterator(beg,end);
