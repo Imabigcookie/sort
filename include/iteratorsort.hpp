@@ -1,5 +1,5 @@
 #include <iostream>
-tamplate <typename iterator>
+template <typename iterator>
 void sort_iterator(iterator begin , iterator end)
 {
    if(!(begin < end))
