@@ -6,5 +6,5 @@ void sort_iterator(iterator begin , iterator end)
     return;
    for(iterator i = begin + 1 ; i != end ; ++i)
     for(iterator j = 1; j =!begin && *j < *(j-1); --j)
-        std::swich_iterator(j - 1,j );
+        std::iterator_swap(j - 1, j);
 }
