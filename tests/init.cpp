@@ -3,7 +3,7 @@
 
 SCENARIO ("array")
 {
-  int a[] {3, 2, 4, 5, 6};
+  int a[] = {3, 2, 4, 5, 6};
   int* s=a;
   int* l=a+5;
  sort_iterator(s,1);
