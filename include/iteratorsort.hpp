@@ -1,6 +1,6 @@
 #include <iostream>
 template <typename iterator>
-void iterator_sort(iterator begin , iterator end)
+void insertion_sort(iterator begin , iterator end)
 {
    if(!(begin < end))
     return;
