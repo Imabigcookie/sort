@@ -3,15 +3,15 @@
 
 SCENARIO ("array")
 {
-  int a[] = {3, 2, 4, 5, 6};
+  int a[] = {4, 1, 5, 2, 3};
   int* s=a;
   int* l=a+5;
  insertion_sort(s,l);
- REQUIRE(a[0] == 2);
- REQUIRE(a[1] == 3);
- REQUIRE(a[2] == 4);
- REQUIRE(a[3] == 5);
- REQUIRE(a[4] == 6);
+ REQUIRE(a[0] == 1);
+ REQUIRE(a[1] == 2);
+ REQUIRE(a[2] == 3);
+ REQUIRE(a[3] == 4);
+ REQUIRE(a[4] == 5);
 }
 SCENARIO("matr")
 {
